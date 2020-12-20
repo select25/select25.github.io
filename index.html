@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">	
+				
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page title</title>
+				
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+				
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+			
+<div class="container">
+				
+
+<div id="slider" class="swipe">
+  <div class="swipe-wrap">
+  				
+  				
+  				
+    <div onclick="select(0);">
+    			<center>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAdjxR_2jFC9V-Tdd4ToP1aVO0QcbkHzaPeA&usqp=CAU" alt="">
+  								<p>Aa Chal Ke Tujhe</p>
+  				</center>	
+    </div>
+    
+    
+    <div onclick="select(1);">
+    				<center>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSNwOVY6XSRl1C-QwAnWeq3OmdOpIYzsBrbQ&usqp=CAU" alt="">
+  				<p>Ankhon Men Humne Aapke Sapne</p>
+  				</center>	
+    </div>
+    
+    
+    <div onclick="select(2);">
+    			<center>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa7gimQE4noMLaF25APDOlZhlqrzDZ1BiJ4g&usqp=CAU" alt="">
+  				<p>Baghon Mein Bahar Hai</p>
+  				</center>		
+    </div>
+    
+    
+    <div onclick="select(3);">
+    			<center>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5K_GziPHGm-OfapwA44PP01gzODsoCacVPA&usqp=CAU" alt="">
+  				<p>Tum Agar Sath Dene Ka Wada Karo</p>
+  				</center>		
+    </div>
+    
+    
+    
+    
+    
+  </div>
+</div>	<!-- Swipe -->			
+				
+				
+
+<br><br>
+
+<button onclick="prev()">prev</button>	
+<button id="playPauseCont" onclick="togglePlay();"><i id="playPause" class="fa fa-play"></i></button>		
+<button onclick="next()">next</button>		
+
+<br>	
+
+<button onclick="backward();">Backward</button>	
+<button onclick="forward();">Forward</button>			
+
+<p>
+<span id="currentTime"></span>
+<span id="duration"></span>
+</p>
+
+
+				
+<audio hidden="true" id="audio" src="#" controls preload="none"></audio>			
+
+
+
+				
+				
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/swipe/2.0.0/swipe.min.js" integrity="sha512-xC1fS6NWgwCMJd/b5MT0Ci1DttjZ2qTxmXHQnUIyWDJddui/jiC5QwAokElrYYT9SOlK/bKMz0UBYJYi1JxdDw==" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
