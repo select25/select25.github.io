@@ -28,6 +28,7 @@ function select(source){
 function slideSwipe(){
 console.log(audio.src);
 let index = songs.indexOf(audio.src);
+document.getElementById("label").innerHTML= audio.src + index;
 mySwipe.slide(index, 50)
 }
 
