@@ -38,7 +38,7 @@ function next(){
 				
 } else{
 				select(sou + 1);
-				slideSwipe();
+				
 }
 
 }
