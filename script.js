@@ -25,12 +25,6 @@ function select(source){
 
 
 
-function slideSwipe(){
-console.log(audio.src);
-let index = songs.indexOf(audio.src);
-document.getElementById("label").innerHTML= sName + index;
-mySwipe.slide(index, 50)
-}
 
 
 
@@ -40,7 +34,7 @@ function next(){
 				if(sou >= noOfSongs){
 				sou = 0;
 				select(sou);
-			slideSwipe();
+			
 				
 } else{
 				select(sou + 1);
