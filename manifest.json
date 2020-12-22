@@ -8,24 +8,49 @@
     "short_name": "Select25",
     "description": "Next Generation eCommerce Solutions for Magento",
     "icons": [
+{
+            "src": "icons/icon_48x48.jpg",
+            "sizes": "47x48",
+            "type": "image/jpg"
+        },
+{
+            "src": "icons/icon_722x72.jpg",
+            "sizes": "72x72",
+            "type": "image/jpg"
+        },
+{
+            "src": "icons/icon_96x96.jpg",
+            "sizes": "96x96",
+            "type": "image/jpg"
+        },
+{
+            "src": "icons/icon_144x144.jpg",
+            "sizes": "144x144",
+            "type": "image/jpg"
+        },
+{
+            "src": "icons/icon_168x168.jpg",
+            "sizes": "168x168",
+            "type": "image/jpg"
+        },
         {
             "src": "icons/icon_192x192.jpg",
-            "sizes": "192x",
+            "sizes": "192x192",
             "type": "image/jpg"
         },
         {
             "src": "icons/icon_256x256.jpg",
-            "sizes": "256x",
+            "sizes": "256x256",
             "type": "image/jpg"
         },
         {
             "src": "icons/icon_384x384.jpg",
-            "sizes": "384x",
+            "sizes": "384x384",
             "type": "image/jpg"
         },
         {
             "src": "icons/icon_512x512.jpg",
-            "sizes": "512x",
+            "sizes": "512x512",
             "type": "image/jpg"
         }
     ]
