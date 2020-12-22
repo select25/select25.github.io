@@ -1,0 +1,32 @@
+{
+    "theme_color": "#fff",
+    "background_color": "#fff",
+    "display": "fullscreen",
+    "scope": "/",
+    "start_url": "/",
+    "app_name": "Select24",
+    "short_name": "Select25",
+    "description": "Next Generation eCommerce Solutions for Magento",
+    "icons": [
+        {
+            "src": "icons/icon_192x192.jpg",
+            "sizes": "192x",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/icon_256x256.jpg",
+            "sizes": "256x",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/icon_384x384.jpg",
+            "sizes": "384x",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/icon_512x512.jpg",
+            "sizes": "512x",
+            "type": "image/png"
+        }
+    ]
+}

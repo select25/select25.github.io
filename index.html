@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="manifest" href="manifest.json">
+				
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">	
+				
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#fff" />
+<title>Page title</title>
+				
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+				
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+			
+<div class="container">
+<div class="header">
+		<div class="left">Select25</div>
+		<div class="right">
+		<span>Get the app</span>
+		</div>		
+</div>
+<br>
+
+
+<div class="playing">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7GM0S3UuGWGGKFcVZJ78TnzwVNmbTsWP2GA&usqp=CAU" id="labelIMG" loading="lazy"><br>
+<span id="title">Likha Hai Teri Aankhon Mein</span><br>
+<span id="author"	>Lata Mangeshkar, Kishore Kumar</span>			
+</div><br>		
+
+
+
+
+<div class="HeadPlayAll">	
+<span class="headPlay">Home</span>
+<span class="playAll" onclick="select(0);">Play all</span>
+</div><br>
+
+<div>
+			
+<div class="list" onclick="select(0);">
+<div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7GM0S3UuGWGGKFcVZJ78TnzwVNmbTsWP2GA&usqp=CAU" alt="" loading="lazy"></div>
+<div><p>Likha Hai Teri Aankhon Mein <br> <span>Lata Mangeshkar, Kishore Kumar</span></p></div>
+
+<div class="playCircle"><i id="playIcon" class="fal fa-play-circle"></i></div>				
+</div>
+
+<div class="list" onclick="select(1);">
+<div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv7yrCvgePHK4JKE9878i74BQb1DbS7qic3Q&usqp=CAU" alt="" loading="lazy"></div>
+<div><p>Achha ji main haari chalo <br> <span>Mohammed Rafi, Asha Bhosle</span></p></div>
+
+<div class="playCircle"><i id="playIcon" class="fal fa-play-circle"></i></div>				
+</div>
+
+<div class="list" onclick="select(2);">
+<div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU8sPI4EatvS1qrlpEThuBnAZ9gTTMM7Y9cw&usqp=CAU" alt="" loading="lazy"></div>
+<div><p>Hai apna dil toh awara<br> <span>Hemant Kumar</span></p></div>	
+
+<div class="playCircle"><i id="playIcon" class="fal fa-play-circle"></i></div>			
+</div>
+
+<div class="list" onclick="select(3);">
+<div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7GM0S3UuGWGGKFcVZJ78TnzwVNmbTsWP2GA&usqp=CAU" alt="" loading="lazy"></div>
+<div><p>Khwaab Ho Tum Ya Koi Haqeeqat <br> <span>Kishore Kumar</span></p></div>
+
+<div class="playCircle"><i id="playIcon" class="fal fa-play-circle"></i></div>				
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+				
+				
+<br><br><br><br><br><br>				
+</div>
+
+
+
+
+	
+<button id="playPauseCont" onclick="togglePlay();"><i id="playPause" class="fa fa-play"></i></button>		
+		
+
+	
+
+<div class="btns">
+<i class="fa fa-backward" onclick="backward()"></i>	
+<i class="fa fa-step-backward" onclick="prev()"></i>
+
+<span class="timing">
+<span id="currentTime">00:00 /</span>
+<span id="duration"> 00:00</span>
+</span>
+
+<i class="fa fa-step-forward" onclick="next()"></i>	
+<i class="fa fa-forward" onclick="forward()"></i>
+</div>
+
+
+
+<p class="credits">Developed by <b>Smitesh Das</b> at <b>Designside</b></p>				
+<br><br><br><br>	
+
+
+
+				
+</div>
+<audio src="s/Likha Hai Teri Aankhon Mein.mp3" hidden="true" id="audio" controls preload="metadata"></audio>
+<script src="script.js"></script>
+</body>
+</html>
