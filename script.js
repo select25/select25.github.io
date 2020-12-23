@@ -177,13 +177,15 @@ document.getElementById("duration").innerHTML= mins + ":" + secs;
 
 
 
+function downloadAlert(){
+				alert('- Click on THREE DOTS in the top right corner and tap OPEN IN CHROME [If in Instagram]\n - In Chrome, tap on THREE DOTS at top right corner and select ADD TO HOME SCREEN \n - Click ADD  ')
+}
 
 
 
-
-let playCircle = document.querySelector(".playCircle"); 
+/*let playCircle = document.querySelector(".playCircle"); 
 let playIcon = document.getElementById("playIcon");
 let elemHeight = playCircle.offsetHeight;
 let pos=elemHeight/2; 
 playIcon.style.top=pos;
-console.log(elemHeight + ' '+pos)
+console.log(elemHeight + ' '+pos)*/
